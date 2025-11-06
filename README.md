@@ -168,6 +168,7 @@ SUMMARY = "Custom Python App"
 LICENSE = "CLOSED"
 SRC_URI = "file://my_script.py"
 
+
 do_install() {
     install -d ${D}${bindir}
     install -m 0755 ${WORKDIR}/my_script.py ${D}${bindir}/my_script.py
@@ -193,6 +194,7 @@ Now your script will be available in /usr/bin/ on the board.
 <img width="781" height="724" alt="python_petralinux" src="https://github.com/user-attachments/assets/776f24e8-8b47-4c59-ab67-83ef8de912c9" />
 <img width="1045" height="402" alt="petalinux" src="https://github.com/user-attachments/assets/4ded834d-7c69-4847-b8b2-c1dfe86c045f" />
 <img width="1151" height="774" alt="packageupdation" src="https://github.com/user-attachments/assets/fe27ad8f-0528-4d14-b7a6-4211e79b54de" />
+<img width="1920" height="1080" alt="Screenshot from 2025-11-06 17-16-58" src="https://github.com/user-attachments/assets/4c52860d-228b-47be-9be0-94f9dea797b4" />
 
 
 Board: Zynq UltraScale+ ZCU104
